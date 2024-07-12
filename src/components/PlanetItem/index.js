@@ -1,6 +1,6 @@
 import './index.css'
 
-const PlanetItme = props => {
+const PlanetItem = props => {
   const {data} = props
   const {name, imageUrl, description} = data
 
@@ -13,4 +13,4 @@ const PlanetItme = props => {
   )
 }
 
-export default PlanetItme
+export default PlanetItem
